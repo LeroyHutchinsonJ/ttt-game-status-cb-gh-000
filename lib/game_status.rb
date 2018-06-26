@@ -21,11 +21,12 @@ WIN_COMBINATIONS = [
 ]
 
 def won? (board)
-  
-WIN_COMBINATIONS.each do
-  win_index_1 = WIN_COMBINATIONS[0]
-  win_index_2 = WIN_COMBINATIONS[1]
-  win_index_3 = WIN_COMBINATIONS[2]
+
+WIN_COMBINATIONS.each do|win_combination|
+
+  win_index_1 = win_combination[0]
+  win_index_2 = win_combination[1]
+  win_index_3 = win_combination[2]
 
   if win_index_1 == "X" && win_index_2 == "X" && win_index_3 == "X"
       return WIN_COMBINATIONS # return the win_combination indexes that won.
