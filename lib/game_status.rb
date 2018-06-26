@@ -29,11 +29,11 @@ WIN_COMBINATIONS.each do|win_combination|
   win_index_3 = win_combination[2]
 
   if win_index_1 == "X" && win_index_2 == "X" && win_index_3 == "X"
-      return WIN_COMBINATIONS # return the win_combination indexes that won.
+      return win_combination # return the win_combination indexes that won.
     else
       false
     end
+
+
 end
-
-
 end
