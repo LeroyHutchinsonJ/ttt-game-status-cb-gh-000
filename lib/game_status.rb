@@ -21,7 +21,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won? (board)
-  
+
 win_index_1 = WIN_COMBINATIONS[0]
 win_index_2 = WIN_COMBINATIONS[1]
 win_index_3 = WIN_COMBINATIONS[2]
