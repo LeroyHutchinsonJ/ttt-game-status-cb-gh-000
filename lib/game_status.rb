@@ -19,3 +19,7 @@ WIN_COMBINATIONS = [
 
   # ETC, an array for each win combination
 ]
+
+def won (board,)
+
+end
