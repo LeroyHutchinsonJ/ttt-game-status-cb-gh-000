@@ -20,6 +20,10 @@ WIN_COMBINATIONS = [
   # ETC, an array for each win combination
 ]
 
-def won (board)
+def won? (board)
+
+if(board[0] == "X" && board[1] == "X" && board[2] == "X")
+
+end
 
 end
